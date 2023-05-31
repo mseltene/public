@@ -1,0 +1,164 @@
+[
+ {
+   "SQL": "bigint",
+   "C#": "Int64",
+   "TypeScript": "number",
+   "app.types.ts": "export type bigint = number;"
+ },
+ {
+   "SQL": "binary",
+   "C#": "Byte[]",
+   "TypeScript": "Array<number>",
+   "app.types.ts": "export type binary = Array<number>;"
+ },
+ {
+   "SQL": "bit",
+   "C#": "Boolean",
+   "TypeScript": "boolean",
+   "app.types.ts": "export type bit = boolean;"
+ },
+ {
+   "SQL": "char",
+   "C#": "String",
+   "TypeScript": "string",
+   "app.types.ts": "export type char = string;"
+ },
+ {
+   "SQL": "date 1",
+   "C#": "DateTime",
+   "TypeScript": "Date",
+   "app.types.ts": "export type date 1 = Date;"
+ },
+ {
+   "SQL": "datetime",
+   "C#": "DateTime",
+   "TypeScript": "Date",
+   "app.types.ts": "export type datetime = Date;"
+ },
+ {
+   "SQL": "datetime2",
+   "C#": "DateTime",
+   "TypeScript": "Date",
+   "app.types.ts": "export type datetime2 = Date;"
+ },
+ {
+   "SQL": "datetimeoffset",
+   "C#": "DateTimeOffset",
+   "TypeScript": "Date",
+   "app.types.ts": "export type datetimeoffset = Date;"
+ },
+ {
+   "SQL": "decimal",
+   "C#": "Decimal",
+   "TypeScript": "number",
+   "app.types.ts": "export type decimal = number;"
+ },
+ {
+   "SQL": "float",
+   "C#": "Double",
+   "TypeScript": "number",
+   "app.types.ts": "export type float = number;"
+ },
+ {
+   "SQL": "int",
+   "C#": "Int32",
+   "TypeScript": "number",
+   "app.types.ts": "export type int = number;"
+ },
+ {
+   "SQL": "nchar",
+   "C#": "String",
+   "TypeScript": "string",
+   "app.types.ts": "export type nchar = string;"
+ },
+ {
+   "SQL": "ntext",
+   "C#": "String",
+   "TypeScript": "string",
+   "app.types.ts": "export type ntext = string;"
+ },
+ {
+   "SQL": "numeric",
+   "C#": "Decimal",
+   "TypeScript": "number",
+   "app.types.ts": "export type numeric = number;"
+ },
+ {
+   "SQL": "nvarchar",
+   "C#": "String",
+   "TypeScript": "string",
+   "app.types.ts": "export type nvarchar = string;"
+ },
+ {
+   "SQL": "rowversion",
+   "C#": "Byte[]",
+   "TypeScript": "Array<string>",
+   "app.types.ts": "export type rowversion = Array<string>;"
+ },
+ {
+   "SQL": "smalldatetime",
+   "C#": "DateTime",
+   "TypeScript": "Date",
+   "app.types.ts": "export type smalldatetime = Date;"
+ },
+ {
+   "SQL": "smallint",
+   "C#": "Int16",
+   "TypeScript": "number",
+   "app.types.ts": "export type smallint = number;"
+ },
+ {
+   "SQL": "text",
+   "C#": "String",
+   "TypeScript": "string",
+   "app.types.ts": "export type text = string;"
+ },
+ {
+   "SQL": "time",
+   "C#": "TimeSpan",
+   "TypeScript": "Date",
+   "app.types.ts": "export type time = Date;"
+ },
+ {
+   "SQL": "timestamp",
+   "C#": "Byte[]",
+   "TypeScript": "string",
+   "app.types.ts": "export type timestamp = string;"
+ },
+ {
+   "SQL": "tinyint",
+   "C#": "Byte",
+   "TypeScript": "number",
+   "app.types.ts": "export type tinyint = number;"
+ },
+ {
+   "SQL": "uniqueidentifier",
+   "C#": "Guid",
+   "TypeScript": "string",
+   "app.types.ts": "export type uniqueidentifier = string;"
+ },
+ {
+   "SQL": "varbinary",
+   "C#": "Byte[]",
+   "TypeScript": "Array<number>",
+   "app.types.ts": "export type varbinary = Array<number>;"
+ },
+ {
+   "SQL": "varchar",
+   "C#": "String",
+   "TypeScript": "string",
+   "app.types.ts": "export type varchar = string;"
+ },
+ {
+   "SQL": "varchar(7)",
+   "C#": "string",
+   "TypeScript": "`${\"x\"}${string}` & { length: 7 }",
+   "app.types.ts": "export type varchar(7) = `${\"x\"}${string}` & { length: 7 };"
+ },
+ {
+   "SQL": "varchar(10)",
+   "C#": "string",
+   "TypeScript": "`${\"x\"}${string}` & { length: 10 }",
+   "app.types.ts": "export type varchar(10) = `${\"x\"}${string}` & { length: 10 };"
+ }
+]
