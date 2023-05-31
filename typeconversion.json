@@ -24,12 +24,6 @@
    "Angular": "export type char = string;"
  },
  {
-   "SQL": "date 1",
-   "CSharp": "DateTime",
-   "TypeScript": "Date",
-   "Angular": "export type date 1 = Date;"
- },
- {
    "SQL": "datetime",
    "CSharp": "DateTime",
    "TypeScript": "Date",
