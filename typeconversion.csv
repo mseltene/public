@@ -1,4 +1,4 @@
-﻿SQL,C#,TypeScript,app.types.ts
+﻿SQL,CSharp,TypeScript,app.types.ts
 bigint,Int64,number,export type bigint = number;
 binary,Byte[],Array<number>,export type binary = Array<number>;
 bit,Boolean,boolean,export type bit = boolean;
