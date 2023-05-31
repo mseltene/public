@@ -147,12 +147,12 @@
    "SQL": "varchar(7)",
    "CSharp": "string",
    "TypeScript": "`${\"x\"}${string}` & { length: 7 }",
-   "Angular": "export type varchar(7) = `${\"x\"}${string}` & { length: 7 };"
+   "Angular": "export type varchar7 = `${\"x\"}${string}` & { length: 7 };"
  },
  {
    "SQL": "varchar(10)",
    "CSharp": "string",
    "TypeScript": "`${\"x\"}${string}` & { length: 10 }",
-   "Angular": "export type varchar(10) = `${\"x\"}${string}` & { length: 10 };"
+   "Angular": "export type varchar10 = `${\"x\"}${string}` & { length: 10 };"
  }
 ]
