@@ -3,6 +3,7 @@ bigint,Int64,number,export type bigint = number;
 binary,Byte[],Array<number>,export type binary = Array<number>;
 bit,Boolean,boolean,export type bit = boolean;
 char,String,string,export type char = string;
+date,DateTime,Date,export type date = Date;
 datetime,DateTime,Date,export type datetime = Date;
 datetime2,DateTime,Date,export type datetime2 = Date;
 datetimeoffset,DateTimeOffset,Date,export type datetimeoffset = Date;
